@@ -7,6 +7,6 @@ An Android custom view that simulates an analog gauge
 * Nice needle animation
 * Can be easly modified
 
-Screenshot:
+**Screenshot:**
 
 <img src="images/screenshot.png" alt="Screenshot" width="270" height="480">
