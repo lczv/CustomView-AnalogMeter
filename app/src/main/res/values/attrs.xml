@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AnalogMeter">
+        <attr name="needle_color" format="color"/>
+        <attr name="needle_tickness" format="float"/>
+        <attr name="needle_length" format="float"/>
+        <attr name="interval" format="integer"/>
+        <attr name="interval_subdivisions" format="integer"/>
+        <attr name="min_value" format="integer"/>
+        <attr name="max_value" format="integer"/>
+        <attr name="current_value" format="float"/>
+        <attr name="values_color" format="color"/>
+        <attr name="intervals_color" format="color"/>
+        <attr name="background_color" format="color"/>
+        <!--<attr name="values_size" format="dimension"/>-->
+    </declare-styleable>
+
+</resources>

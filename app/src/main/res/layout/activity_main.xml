@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.android.study.lczv.customview_analogmeter.ui.AnalogMeter
+        android:id="@+id/uvmeter"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:interval="1"
+        app:max_value="9"
+        app:min_value="0"
+        app:background_color="#FFFFFF"
+        app:needle_color="#FF0000"
+        app:needle_length="400.0"
+        app:needle_tickness="6.0" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:max="9"/>
+
+</LinearLayout>
