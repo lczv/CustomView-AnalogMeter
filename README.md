@@ -1,6 +1,12 @@
 # CustomView-AnalogMeter
 An Android custom view that simulates an analog gauge
 
-Features:
+**Features:**
 
-![Alt text](images/screenshot.png = 480x270 "Screenshot")
+* Allow custom range
+* Nice needle animation
+* Can be easly modified
+
+Screenshot:
+
+<img src="images/screenshot.png" alt="Screenshot" width="270" height="480">
